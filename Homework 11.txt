@@ -1,0 +1,21 @@
+new project Homework-11
+git init
+new file index.html
+new folder css: new file style.css
+new file README.md
+new file .gitignore:    *.sass
+			/bin
+			/admin
+			/config
+
+git add .
+git commit -m "add new project"
+git branch blog
+git checkout blog
+new folder blog: new file index.js
+		 new file index.html
+git checkout master
+git remote add origin https://github.com/knyazb47/homework-11.git
+git push -u origin master
+
+
